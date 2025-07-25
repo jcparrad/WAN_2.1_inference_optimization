@@ -167,6 +167,10 @@ If using H200.8 GPU, the cost per second of video generation could be reduced by
 - **Expected Cost per Second**:  
   0.41 USD ÷ 2 = 0.205 USD
 
+The following image shows a screenshot of the GPU usage:
+
+![GPU Usage Screenshot](gpu_shot.png)
+
 
 ## 🔗 References
 
