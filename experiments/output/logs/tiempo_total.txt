@@ -1,1 +1,2 @@
 🕒 Tiempo proceso 1: 1837.51 s | 🕒 Tiempo proceso 2: 1850.13 s | 🕒 Tiempo total (ambos procesos): 1850.13 s
+🕒 Tiempo proceso 1: 1840.94 s | 🕒 Tiempo proceso 2: 1852.58 s | 🕒 Tiempo total (ambos procesos): 1852.58 s

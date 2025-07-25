@@ -30,53 +30,53 @@ base_seed = 42
 tasks = [
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_1.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_1.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_2.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_2.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_3.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_3.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_4.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_4.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_5.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_5.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_6.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_6.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_7.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_7.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_8.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_8.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_9.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_9.mp4"
     },
     {
         "prompt": "A wide modern kitchen environment featuring a black Oster blender filled with fruits and ice on a white marble counter. Extend the current countertop seamlessly to the left and right, adding clean kitchen utensils, fresh fruit bowls, and a cutting board. Behind the blender, a tiled backsplash and white cabinets continue across the scene. Include soft natural lighting and subtle reflections on the countertop for a realistic look. Maintain the color tones and material style of the original image.",
-        "src_ref_images_path": "/workspace/inference_optimization/licuadora1.png",
-        "save_file": "/workspace/inference_optimization/output/output_licuadora_832_480_v2_10.mp4"
+        "src_ref_images_path": "/workspace/experiments/licuadora1.png",
+        "save_file": "/workspace/experiments/output/output_licuadora_832_480_v2_10.mp4"
     },
 ]
 

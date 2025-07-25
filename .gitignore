@@ -92,9 +92,9 @@ tests/__pycache__/
 htmlcov/
 .cache/
 
-docker_oci_gpu/model_repo/*
-docker_oci_gpu/custom_filename.mp4
-docker_oci_gpu/curl_inference.log
+model_repo/*
+*.mp4
+*.log
 
 
 venv/*

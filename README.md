@@ -82,33 +82,37 @@ huggingface-cli download Wan-AI/Wan2.1-VACE-14B --local-dir ./Wan2.1-VACE-14B
 git clone https://github.com/Wan-Video/Wan2.1.git
 ```
 
+
+copy the files generate_vace_1.py and generate_vace_2.py into model_repo/Wan2.1
+
+```bash
+cp generate_vace_1.py model_repo/Wan2.1/
+cp generate_vace_2.py model_repo/Wan2.1/
+```
+
 ---
 
 ## 🐳 4. Build Docker Image for FastAPI App
 
-Navigate back to `docker_oci_gpu/` where the `Dockerfile` and `main.py` are located:
+Build the Docker image using the `DockerfileJupyter` file:
+
+
 
 ```bash
-cd ../  # Go back to docker_oci_gpu
-sudo docker build -t gpu-app .
+sudo docker build -f DockerfileJupyter -t gpu-jupyter .
 ```
-
-This builds a Docker image named `gpu-app` with GPU + FastAPI + model code.
 
 ---
 
-## 🚀 5. Run the Docker Container
+## ▶️ Step 5: Run the Container
 
 Run the container with port mapping and volume binding:
-
-If you want, you can only attached the VACE model
 
 ```bash
 sudo docker run --rm -it --gpus all --ipc=host \
     -p 8888:8888 \
     -p 8000:8000 \
     -v "$(pwd)/experiments":/workspace/experiments \
-    -v "$(pwd)/inference_optimization":/workspace/inference_optimization \
     -v "$(pwd)/model_repo/Wan2.1-T2V-14B":/workspace/Wan2.1-T2V-14B \
     -v "$(pwd)/model_repo/Wan2.1-T2V-1.3B":/workspace/Wan2.1-T2V-1.3B \
     -v "$(pwd)/model_repo/Wan2.1-I2V-14B-480P":/workspace/Wan2.1-I2V-14B-480P \
@@ -116,7 +120,6 @@ sudo docker run --rm -it --gpus all --ipc=host \
     -v "$(pwd)/model_repo/Wan2.1-VACE-14B":/workspace/Wan2.1-VACE-14B \
     -v "$(pwd)/model_repo/Wan2.1":/workspace/Wan2.1 \
     gpu-jupyter
-
 ```
 
 
