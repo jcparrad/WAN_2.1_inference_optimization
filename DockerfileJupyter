@@ -1,0 +1,35 @@
+# Base Image: PyTorch with CUDA 12.4 and cuDNN 9
+FROM pytorch/pytorch:2.4.0-cuda12.4-cudnn9-devel
+
+# Set working directory
+WORKDIR /workspace
+
+# Copy requirements file
+COPY model_repo/Wan2.1 /workspace/Wan2.1
+
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y wget vim git curl && \
+    apt-get install -y libgl1 && \
+    apt-get update && apt-get install -y libglib2.0-0 && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip and install Python packages
+RUN pip install --upgrade pip && \
+    pip install -r /workspace/Wan2.1/requirements.txt && \
+    pip install jupyterlab && \
+    pip install "xfuser>=0.4.1" && \
+    pip install "huggingface_hub[cli]"  && \
+    pip uninstall flash-attn -y  && \
+    pip install flash-attn --no-build-isolation && \
+    pip install fastapi uvicorn
+
+# Validate CUDA and PyTorch
+RUN python -c "import torch; print('CUDA Available:', torch.cuda.is_available())"
+
+# Expose ports for JupyterLab and FastAPI
+EXPOSE 8888
+EXPOSE 8000
+
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root", "--NotebookApp.token=''", "--NotebookApp.password=''"]

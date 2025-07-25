@@ -1,0 +1,104 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.out
+*.err
+*.trace
+
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+
+# HuggingFace cache
+~/.cache/huggingface/
+huggingface/
+huggingface_cache/
+
+# Wan2.1 outputs
+*.safetensors
+Wan2.1-T2V-14B/
+*.webm
+
+# Docker
+*.tar
+*.img
+*.pid
+*.sock
+docker-compose.override.yml
+docker-compose*.log
+
+# Docker build context artifacts
+docker_oci_gpu/__pycache__/
+docker_oci_gpu/*.pyc
+docker_oci_gpu/*.log
+
+
+# Build folders
+build/
+dist/
+*.egg-info/
+
+# Node (if using frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
+*~
+
+# Test files
+tests/__pycache__/
+*.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+docker_oci_gpu/model_repo/*
+docker_oci_gpu/custom_filename.mp4
+docker_oci_gpu/curl_inference.log
+
+
+venv/*
+*.mp4
+
+
+*.trashinfo
